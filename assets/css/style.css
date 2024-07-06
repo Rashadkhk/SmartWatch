@@ -1,0 +1,398 @@
+/*Font Family*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*Reset css*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+
+/*First Section*/
+
+
+.first-section{
+    background-image:url('../images/first-bg.jpeg');
+    background-position: center;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+.section-inner{
+    width: 75%;
+    z-index: 1;
+}
+
+.first-section .section-inner{
+    margin-bottom: 100px;
+}
+
+.first-section h1{
+    font-weight: 400;
+    color: #fff;
+    font-size: 72px;
+    text-align: center;
+}
+
+.first-section h1,.section-content h2{
+    font-family: "Ubuntu", sans-serif;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: 0;
+}
+
+.first-section p{
+    color: #fff;
+    width: 80%;
+    text-align: center;
+    margin: 20px auto 0 auto;
+}
+
+/*Second section*/
+
+.second-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.1);
+    padding: 50px 0;
+}
+.section-content{
+    width: 40%;
+}
+
+.section-content h2{
+    font-size: 27px;
+    font-weight: 400;
+}
+
+.section-content p{
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.section-content a{
+    padding: 10px 20px;
+    border: 2px solid #000;
+    display: block;
+    margin-top: 20px;
+    width: max-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #000;
+    transition: all .5s ease-in-out;
+}
+.section-content a:hover{
+    color: #fff;
+    background-color: #000;
+}
+.second-section .section-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.second-section img{
+    width: 55%;
+}
+
+/*Third Section*/
+
+.third-section{
+    background-color: #35506d;
+    padding: 100px 0;
+}
+.third-section h2{
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 1.1;
+}
+.third-section .section-inner{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 27px;
+}
+.third-element{
+    width: 30%;
+}
+.element1,.element3{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.element1 li,.element3 li{
+    color: #fff;
+    display: flex;
+    margin-bottom: 40px;
+}
+.element1 li img,.element3 li img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+.element1 li p,.element3 li p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+.element1 li h4,.element3 li h4{
+    font-weight: 400;
+}
+
+/*Forth Section -> BasketBall*/
+
+.forth-section{
+    background-image:url('../images/basketball.jpeg');
+    background-position: center;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+
+.forth-section .section-inner .section-content{
+    margin-bottom: 200px;
+    color: #fff;
+    margin-left: 45px;
+}
+
+.forth-section .section-inner h2{
+    color:#fff;
+    font-size: 35px;
+    font-weight: 400px;
+    text-align: left;
+}
+
+.forth-section .section-inner p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 550px ;
+    position: relative;
+}
+
+/*Fifth Section -> Grass*/
+
+.fifth-section{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("../images/grass.jpeg");
+    background-position: center;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+
+.fifth-section .section-inner h2{
+    color:#fff;
+    font-size: 35px;
+    font-weight: 400px;
+}
+
+.fifth-section .section-inner p{
+    font-size: 15px;
+    font-weight: 500px ;
+}
+
+.fifth-section .section-inner .section-content{
+    margin-bottom: 200px;
+    color: #fff;
+    margin-left: 45px;
+    text-align: right;
+    z-index: 1;
+}
+
+/* .fifth-section .section-inner .overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.3);
+    z-index: -1;
+} */
+
+/*Sixth Section -> Green */
+
+.sixth-section{
+    background-color: white;
+    padding: 50px 0;
+}
+
+.sixth-section  h2{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+}
+
+.sixth-section .section-inner{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.sixth-element{
+    width: 45%;
+}
+
+.element1, .element2{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sixth-section .section-inner .element1 li,.element2 li{
+    color: #000000;
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.sixth-section .section-inner li img{
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+}
+
+.element1 li p,.element2 li p{
+    font-size: 15px;
+    margin-top: 15px;
+}
+
+.sixth-section .section-inner img{
+    width: 600px;
+    height: 400px;
+}
+
+.element1 li h4,.element2 li h4{
+    font-weight: 500;
+}
+
+
+
+/*Seventh Section -> Girl*/
+.seventh-section{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("../images/girl.jpeg");
+    background-position: center;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;    
+    
+}
+
+.seventh-section .section-inner .section-content{
+    margin-bottom: 200px;
+    color: #fff;
+    margin-left: 45px;
+}
+
+.seventh-section .section-inner h2{
+    color:#fff;
+    font-size: 35px;
+    font-weight: 400px;
+    text-align: left;
+}
+
+.seventh-section .section-inner p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 550px ;
+    position: relative;
+}
+
+/*Eighth Section*/
+
+.eighth-section{
+    background-image:linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("../images/sport.jpeg");
+    background-position: center;
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    position: relative;
+}
+
+.eighth-section .section-inner .section-content{
+    margin-bottom: 200px;
+    color: #fff;
+    margin-left: 45px;
+}
+
+.eighth-section .section-inner h2{
+    color:#fff;
+    font-size: 35px;
+    font-weight: 400px;
+    text-align: left;
+}
+
+.eighth-section .section-inner p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 550px ;
+    position: relative;
+}
+
+
+/*BUTTON*/
+
+.forth-section .section-content a, .fifth-section .section-content a, .seventh-section .section-content a, .eighth-section .section-content a{
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    display: block;
+    margin-top: 20px;
+    width: max-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 13px;
+    color: #ffffff;
+    transition: all .5s ease-in-out;
+}
+
+
+/*Responsive breakpoints*/
+
+
+/*Mobile*/
+
+@media(max-width:767px){
+    .first-section h1{
+        font-size: 40px;
+    }
+    .section-inner{
+        width: 90%;
+    }
+    .second-section .section-inner,.third-section .section-inner{
+        flex-direction: column;
+    }
+    .second-section .section-content,.second-section img,.third-element{
+        width: 100%;
+    }
+    .third-section h2{
+        font-size: 23px;
+    }
+}
