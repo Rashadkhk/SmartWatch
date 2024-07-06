@@ -386,7 +386,7 @@
     .section-inner{
         width: 90%;
     }
-    .second-section .section-inner,.third-section .section-inner{
+    .second-section .section-inner,.third-section .section-inner, .sixth-section .section-inner{
         flex-direction: column;
     }
     .second-section .section-content,.second-section img,.third-element{
