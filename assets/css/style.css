@@ -215,10 +215,25 @@
     font-weight: 500px ;
 }
 
+.fifth-section .section-content a{
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    display:flex;
+    margin-top: 20px;
+    width: max-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight:300;
+    color: #ffffff;
+    transition: all .5s ease-in-out;
+    margin-left: auto;
+}
+
 .fifth-section .section-inner .section-content{
     margin-bottom: 200px;
     color: #fff;
-    margin-left: 45px;
+    margin-left: auto;
     text-align: right;
     z-index: 1;
 }
@@ -252,7 +267,7 @@
 }
 
 .sixth-element{
-    width: 45%;
+    width: 80%;
 }
 
 .element1, .element2{
@@ -307,6 +322,7 @@
     margin-bottom: 200px;
     color: #fff;
     margin-left: 45px;
+    width:400px;
 }
 
 .seventh-section .section-inner h2{
@@ -340,14 +356,15 @@
 .eighth-section .section-inner .section-content{
     margin-bottom: 200px;
     color: #fff;
-    margin-left: 45px;
+    margin-left: auto;
+    text-align: end;
+    width: 380px;
 }
 
 .eighth-section .section-inner h2{
     color:#fff;
     font-size: 35px;
     font-weight: 400px;
-    text-align: left;
 }
 
 .eighth-section .section-inner p{
@@ -357,10 +374,24 @@
     position: relative;
 }
 
+.eighth-section .section-content a{
+    padding: 10px 30px;
+    border: 1px solid #ffffff;
+    display:flex;
+    margin-top: 20px;
+    width: max-content;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight:300;
+    color: #ffffff;
+    transition: all .5s ease-in-out;
+    margin-left: auto;
+}
 
 /*BUTTON*/
 
-.forth-section .section-content a, .fifth-section .section-content a, .seventh-section .section-content a, .eighth-section .section-content a{
+.forth-section .section-content a, .seventh-section .section-content a{
     padding: 10px 20px;
     border: 2px solid #ffffff;
     display: block;
@@ -394,5 +425,12 @@
     }
     .third-section h2{
         font-size: 23px;
+    }
+    .forth-section .section-inner .section-content, .fifth-section .section-inner .section-content, .eighth-section .section-inner .section-content, .seventh-section .section-inner .section-content, .eighth-section .section-inner .section-content  {
+        margin-left: 0;
+        width: 300px;
+    }
+    .fifth-section .section-inner, .eighth-section .section-inner{
+        width: 300px;
     }
 }
